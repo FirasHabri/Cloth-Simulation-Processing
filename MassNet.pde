@@ -81,7 +81,7 @@ class MassNet{
   }
 void buildNet(int n,int  m,boolean[][] flags)
 {
-  unikitty = loadImage("unikitty.jpg");
+  unikitty = loadImage("cat.jpg");
   //println(unikitty);
   net=new SpringMass[n][m];
   int off_x=0,off_y=0,off_z=0;
